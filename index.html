@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Belajar CSS Niomic </title>
+    <style>
+        body{
+            background-color: #333;
+        }
+        .container{
+          width: 500px;
+          height: 100%;
+          margin: 20px auto;
+        }
+        img{
+            width: 200px;
+            height: 100px;
+        }
+        .text-decoration-underline {
+            text-decoration: underline !important;
+        }
+        .fs-6{
+          font-size: 14px !important;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container text-light">
+        <img src="lampung.jpg" class="rounded-circle mx-auto d-block mb-2" alt="icon lampung">
+
+        <div class="mb-3">
+          <label for="nama" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control mb-3" id="nama" placeholder="Nama Lengkap">
+
+          <label for="textarea" class="form-label">Alamat</label>
+          <textarea class="form-control mb-3" id="textarea" rows="3"></textarea>
+
+          <label for="email" class="form-label ">Alamat Email</label>
+          <input type="email" class="form-control mb-3" id="email" placeholder="Alamat email (disable)" aria-label="Disabled input example" disabled>
+
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control mb-3" id="password" placeholder="Password">
+          
+          <label for="file" class="form-label">Scan KTP</label>
+          <input class="form-control bg-transparent border-0 text-light px-0 pt-0 mb-3" type="file" id="file">
+          
+          <div class="form-check mt-3">
+          <input class="form-check-input" type="checkbox" value="" id="check">
+          <label class="form-check-label fs-6" for="check">
+            saya <span class="text-decoration-underline fs-6">setuju</span> dan telah membaca <span class="text-primary">aturan</span> serta <span class="text-primary">ketentuan</span> yang berlaku
+          </label>
+          </div>
+
+          <div class="d-grid mt-3">
+            <button class="btn btn-info col-12 mx-auto" type="button">Submit</button>
+          </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>
